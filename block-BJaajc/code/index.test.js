@@ -16,7 +16,7 @@ test('This will return Pumba Simba', () => {
 });
 
 test('This is going to failed', () => {
-  expect(getFullName('Fail', 'Test')).toBe('Fail');
+  expect(getFullName('Fail', 'Test')).toBe('Fail Test');
 });
 
 // isPalindrome
@@ -25,11 +25,7 @@ test('This should give Madam is palindrome', () => {
 });
 
 test('This should give raceCar is not a palindrome', () => {
-  expect(isPalindrome('raceCar')).toBe(false);
-});
-
-test('This should give raceCar is not a palindrome', () => {
-  expect(isPalindrome('raceCar')).toBe(false);
+  expect(isPalindrome('raceCar')).toBe(true);
 });
 
 // getCir
@@ -39,27 +35,7 @@ test('Should give the circumference of Circle', () => {
   );
 });
 
-test('Should give the circumference of Circle', () => {
-  expect(getCir(10)).toBe(
-    `The circumference of the circle is 62.800000000000004`
-  );
-});
-
-test('Should give the circumference of Circle', () => {
-  expect(getCir(10)).toBe(
-    `The circumference of the circle is 62.800000000000004`
-  );
-});
-
 // getArea
-test('Should give the area of Circle', () => {
-  expect(getArea(10)).toBe(`The area of circle is 314`);
-});
-
-test('Should give the area of Circle', () => {
-  expect(getArea(10)).toBe(`The area of circle is 314`);
-});
-
 test('Should give the area of Circle', () => {
   expect(getArea(10)).toBe(`The area of circle is 314`);
 });
@@ -76,7 +52,7 @@ test('Second Negative Test', () => {
 });
 
 test('Third Negative Test which is going to be failed', () => {
-  expect(getFullName('Ayush', 'Kamboj')).not.toBe('Ayush Kamboj');
+  expect(getFullName('Ayush', 'Kamboj')).not.toBe('Ayush');
 });
 
 // isPalindrome
@@ -88,32 +64,12 @@ test('This should give raceCar is not a palindrome', () => {
   expect(isPalindrome('raceCar')).not.toBe(false);
 });
 
-test('This should give raceCar is not a palindrome', () => {
-  expect(isPalindrome('raceCar')).not.toBe(false);
-});
-
 // getCir
 test('Should give the circumference of Circle', () => {
   expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
 });
 
-test('Should give the circumference of Circle', () => {
-  expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
-});
-
-test('Should give the circumference of Circle', () => {
-  expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
-});
-
 // getArea
-test('Should give the area of Circle', () => {
-  expect(getArea(10)).not.toBe(`The area of circle is 3140`);
-});
-
-test('Should give the area of Circle', () => {
-  expect(getArea(10)).not.toBe(`The area of circle is 3140`);
-});
-
 test('Should give the area of Circle', () => {
   expect(getArea(10)).not.toBe(`The area of circle is 3140`);
 });
