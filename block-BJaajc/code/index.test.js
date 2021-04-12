@@ -28,6 +28,10 @@ test('This should give raceCar is not a palindrome', () => {
   expect(isPalindrome('raceCar')).toBe(false);
 });
 
+test('This should give raceCar is not a palindrome', () => {
+  expect(isPalindrome('raceCar')).toBe(false);
+});
+
 // getCir
 test('Should give the circumference of Circle', () => {
   expect(getCir(10)).toBe(
@@ -35,7 +39,27 @@ test('Should give the circumference of Circle', () => {
   );
 });
 
+test('Should give the circumference of Circle', () => {
+  expect(getCir(10)).toBe(
+    `The circumference of the circle is 62.800000000000004`
+  );
+});
+
+test('Should give the circumference of Circle', () => {
+  expect(getCir(10)).toBe(
+    `The circumference of the circle is 62.800000000000004`
+  );
+});
+
 // getArea
+test('Should give the area of Circle', () => {
+  expect(getArea(10)).toBe(`The area of circle is 314`);
+});
+
+test('Should give the area of Circle', () => {
+  expect(getArea(10)).toBe(`The area of circle is 314`);
+});
+
 test('Should give the area of Circle', () => {
   expect(getArea(10)).toBe(`The area of circle is 314`);
 });
@@ -64,12 +88,32 @@ test('This should give raceCar is not a palindrome', () => {
   expect(isPalindrome('raceCar')).not.toBe(false);
 });
 
+test('This should give raceCar is not a palindrome', () => {
+  expect(isPalindrome('raceCar')).not.toBe(false);
+});
+
 // getCir
 test('Should give the circumference of Circle', () => {
   expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
 });
 
+test('Should give the circumference of Circle', () => {
+  expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
+});
+
+test('Should give the circumference of Circle', () => {
+  expect(getCir(10)).not.toBe(`The circumference of the circle is 62.83`);
+});
+
 // getArea
+test('Should give the area of Circle', () => {
+  expect(getArea(10)).not.toBe(`The area of circle is 3140`);
+});
+
+test('Should give the area of Circle', () => {
+  expect(getArea(10)).not.toBe(`The area of circle is 3140`);
+});
+
 test('Should give the area of Circle', () => {
   expect(getArea(10)).not.toBe(`The area of circle is 3140`);
 });
