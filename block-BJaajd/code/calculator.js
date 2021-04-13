@@ -10,6 +10,12 @@ function power() {}
 
 function factorial() {}
 
+function removeFromArray(arr, num) {
+  let indexOfNumber = arr.indexOf(num);
+  arr.splice(indexOfNumber, 1);
+  return arr;
+}
+
 module.exports = {
   add,
   subtract,
@@ -17,4 +23,5 @@ module.exports = {
   multiply,
   power,
   factorial,
+  removeFromArray,
 };

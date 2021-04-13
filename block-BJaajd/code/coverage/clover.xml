@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1618307632580" clover="3.2.0">
+  <project timestamp="1618307632580" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1" elements="11" coveredelements="5" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
+    <file name="calculator.js" path="/home/ayush/AltCampus/JavaScript-Intro/TA-JS-advanced-dom-and-test-TJaaan/block-BJaajd/code/calculator.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="1"/>
+      <line num="14" count="2" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="16" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
