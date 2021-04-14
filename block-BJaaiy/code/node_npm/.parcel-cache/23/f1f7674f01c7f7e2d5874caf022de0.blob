@@ -1,0 +1,6 @@
+const moment = require("moment");
+
+
+let heading = document.createElement('h3');
+heading.innerText = moment().format("MMMM Do YYYY, h:mm:ss a");
+document.append(heading);

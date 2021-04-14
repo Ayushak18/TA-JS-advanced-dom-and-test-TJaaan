@@ -1,0 +1,6 @@
+const moment = require("moment");
+
+let body = document.querySelector("body");
+let heading1 = document.createElement("h1");
+heading1.innerText = moment().format("MMMM Do YYYY, h:mm:ss a");
+body.append(heading1);
