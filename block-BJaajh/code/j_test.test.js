@@ -16,9 +16,9 @@ test('This test should give 10 greater than 5.', () => {
 });
 
 // Test One
-test('This should return Incorrect Values', () => {
-  expect(getWinner('Ayush', 'Rock')).toBe('Incorrect Values');
-});
+// test('This should return Incorrect Values', () => {
+//   expect(getWinner('Ayush', 'Rock')).toBe('Incorrect Values');
+// });
 
 // Test two
 test('This should return tie', () => {
@@ -26,6 +26,6 @@ test('This should return tie', () => {
 });
 
 // Test Three
-test('This should return Paper beats Rock', () => {
-  expect(getWinner('Ayush', 'Rock')).toBe('Paper beats Rock');
-});
+// test('This should return Paper beats Rock', () => {
+//   expect(getWinner('Ayush', 'Rock')).toBe('Paper beats Rock');
+// });
